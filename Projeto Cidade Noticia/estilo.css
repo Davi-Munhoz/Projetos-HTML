@@ -1,0 +1,210 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+ul{
+	margin: 0;
+	list-style: none;
+}
+body {
+	font-family: "Trebuchet MS", helvetica, sans-serif;
+	background: #fff;
+	background: url(fundo.png) repeat-x;
+}
+#container{
+	width: 750px;
+	margin: 0 auto;
+}
+#menu-principal{
+	height: 150px;
+	background: url(detalhe-topo.png) no-repeat right top;
+	padding-top: 25px;
+}
+.logo{
+	width: 152px;
+	height: 66px;
+	background: url(logo.png) no-repeat center;
+	text-indent:-3000px;
+}
+
+#menu-principal ul{
+	margin-top: 30px;
+	background: #b10333;
+	list-style: none;
+	float: left;
+}
+#menu-principal ul li {
+	float: left;
+	display: inline;
+}
+#menu-principal ul a{
+	font-size: 0.9em;
+	display: block;
+	padding: 0.5em 1.5em;
+	line-height: 2.1em;
+	text-decoration: none;
+	color: #fff;
+	background: url(divisor.png) no-repeat left center;
+}
+#menu-principal ul .primeiro a {
+	background: none;
+}
+#menu-principal ul a:hover {
+	color: #69001d;
+}
+body.home #navegação a#home,
+body.Brasil #navegação a#Brasil,
+body.Internacional #navegação a#Internacional,
+body.Economia #navegação a#Economia,
+body.Saúde #navegação a#Saúde,
+body.Fotos #navegação a#Fotos,
+body.Ciência #navegação a#Ciência
+{
+		color: #fff;
+		background: #de003e;
+		cursor: text;
+	}
+#conteudo{
+	margin-top:60px;
+	background: #f5f5f5;
+}
+#principal{
+	width: 270px;
+	float: left;
+	margin: 0 0 20px 195px;
+}
+#duascolunas #principal{
+	width: 550px;
+}
+#umacoluna #principal{
+	width: 750px;
+	margin: 0 0 20px 0px;
+}
+#secundario{
+	width: 270px;
+	float: left;
+	margin: 0 0 20px 15px;
+}
+#lateral{
+	width: 180px;
+	float: left;
+	margin: 0 0 20px -750px;
+}
+#rodape{
+	clear: both;
+	text-align: center;
+	padding: 15px;
+	background: #294c71;
+	margin: 0 auto;
+	color: #fff;
+}
+.caixa{
+	background: #f3f3f3 url(fundo-caixa.png);
+	margin: 10px 0;
+	padding: 5px 0 5px 0;
+}
+h2{
+	font-size: 1.1em;
+	background: #294c71;
+	color: #fff;
+	padding: 5px;
+}
+.menu{
+	background: #fff;
+	padding: 5px;
+	margin: 10px;
+}
+#menu-vertical{
+	width: 80%;
+}
+#lateral ul{
+	
+}
+#lateral ul a{
+text-decoration: none;
+font-size: 0.9em;
+padding: 3px;
+display: block;
+line-height: 30px;
+color: #000;
+}
+#lateral ul a:hover{
+text-decoration: none;
+background: #f9f9f9 url(marcador.png) no-repeat left center;
+color: #a1a1a1;
+padding-left: 20px;
+}
+label{
+	display: block;
+	cursor: pointer;
+	padding-top: 5px;
+}
+input{
+	padding: 5px;
+	width: 125px;
+	font-size: 0.9em;
+	background-color: #fff;
+}
+input.submit{
+	width: 80px;
+	height: 10pxpx;
+	color: #fff;
+	background-color: #b10333;
+	border: 2px solid #870529;
+	padding: 5px;
+}
+#conteudo h3{
+	color: #fff;
+	background: #b10333;
+	padding: 3px;
+	text-transform: uppercase;
+	display: inline;
+	font-size: 0.8em;
+}
+#secundario h3{
+	color: #fff;
+	background: #b10333;
+	padding: 3px;
+	text-transform: uppercase;
+	display: inline;
+	font-size: 0.8em;
+}
+.linknoticias a{
+	color: #b10333;
+}
+
+img{
+	border: 1px solid #dfdfdf;
+	margin-top: 3px;
+}
+#noticias li{
+	padding: 2px;
+	border-bottom:1px solid #ccc;
+	height: 92px;
+}
+#noticias li a img{
+	float: left;
+	margin: 5px;
+}
+#noticias li a{
+	text-decoration: none;
+	font-size: 0.8em;
+	color: black;
+
+}
+#noticias li a h3{
+	font-size: 0.9em;
+	padding: 0;
+	color: #3e7ab9;
+	background: none;
+}
+#noticias li a p{
+	font-size: 0.8em;
+}
+#noticias li:hover{
+	background: #eee;
+	cursor: pointer;
+}
+hr{
+	margin: 3px;
+}
